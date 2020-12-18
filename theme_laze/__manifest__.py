@@ -9,7 +9,7 @@
     'description': """
 Theme Laze is  is a Odoo theme with advanced ecommerce feature, extremely customizable and fully responsive. It's suitable for any e-commerce sites. Start your Odoo store right away with The Laze theme.
         """,
-    'depends': ['website_theme_install'],
+    'depends': ['laze_customize','website_theme_install'],
     'data': [
         'views/customize_template.xml',
         'views/templates.xml',
